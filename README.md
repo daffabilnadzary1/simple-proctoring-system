@@ -14,7 +14,7 @@ A simple proctoring system prototype developed in Python Notebook to classify nu
 ### Instructions (Usage):
 - The file ```HeyHi Technical Test - Proctoring.ipynb``` contains all the development processes in a form of a Python notebook.
 - The notebook can be run sequentially. Some parts can also be skipped if the data already exists (for example the preprocessing and feature engineering step).
-- The folder ```Dataset``` contains the preprocessed data as well as the ground truth files. Each preprocessed .csv file contains around 4000-5000 rows with 101 columns.
+- The ```Dataset``` folder can be downloaded [here](https://drive.google.com/file/d/1R95_hheYAhnh_k9MOoWguakgOTCenNCn/view?usp=sharing). The folder contains the preprocessed data as well as the ground truth files. Each preprocessed .csv file contains around 4000-5000 rows with 101 columns.
 - All trained models can be found in folder ```Model```. This includes the XGBClassifier model as well as the TCN model.
 - To do the training process manually, either download the preprocessed dataset to immediately train or download the ground truth file to do the preprocessing step from the beginning.
 - Don't forget to change the path location before running the preprocessing step or the modelling step.
